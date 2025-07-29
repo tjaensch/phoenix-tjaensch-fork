@@ -1,1 +1,3 @@
-repository_type: pipeline
+name: GOV-fork
+description: Custom nf-core pipeline configuration
+author: AMD
