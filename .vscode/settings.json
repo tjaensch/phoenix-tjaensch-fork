@@ -1,11 +1,3 @@
 {
-    "cSpell.words": [
-        "ATSDR",
-        "CFPB",
-        "ISSO",
-        "cybersecurity"
-    ],
-    "githubPullRequests.ignoredPullRequestBranches": [
-        "main"
-    ]
+    "markdown.styles": ["public/vscode_markdown.css"]
 }

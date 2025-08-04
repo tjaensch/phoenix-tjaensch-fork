@@ -1,40 +1,40 @@
 {
-    "name": "cdcgov/phoenix",
-    "homePage": "https://github.com/cdcgov/phoenix",
+    "name": "ph-core/phoenix",
+    "homePage": "https://github.com/ph-core/phoenix",
     "repos": {
-        "nf-core/modules": {
-            "amrfinderplus/run": {
-                "git_sha": "f0800157544a82ae222931764483331a81812012"
+        "https://github.com/nf-core/modules.git": {
+            "modules": {
+                "nf-core": {
+                    "fastqc": {
+                        "branch": "master",
+                        "git_sha": "41dfa3f7c0ffabb96a6a813fe321c6d1cc5b6e46",
+                        "installed_by": ["modules"]
+                    },
+                    "multiqc": {
+                        "branch": "master",
+                        "git_sha": "41dfa3f7c0ffabb96a6a813fe321c6d1cc5b6e46",
+                        "installed_by": ["modules"]
+                    }
+                }
             },
-            "amrfinderplus/update": {
-                "git_sha": "f0800157544a82ae222931764483331a81812012"
-            },
-            "bbmap/bbduk": {
-                "git_sha": "e745e167c1020928ef20ea1397b6b4d230681b4d"
-            },
-            "custom/dumpsoftwareversions": {
-                "git_sha": "20d8250d9f39ddb05dfb437603aaf99b5c0b2b41"
-            },
-            "fastp": {
-                "git_sha": "d0a1cbb703a130c19f6796c3fce24fbe7dfce789"
-            },
-            "fastqc": {
-                "git_sha": "9d0cad583b9a71a6509b754fdf589cbfbed08961"
-            },
-            "mash/dist": {
-                "git_sha": "e745e167c1020928ef20ea1397b6b4d230681b4d"
-            },
-            "mash/sketch": {
-                "git_sha": "e745e167c1020928ef20ea1397b6b4d230681b4d"
-            },
-            "mlst": {
-                "git_sha": "e745e167c1020928ef20ea1397b6b4d230681b4d"
-            },
-            "multiqc": {
-                "git_sha": "20d8250d9f39ddb05dfb437603aaf99b5c0b2b41"
-            },
-            "srst2/srst2": {
-                "git_sha": "24dc2d21132b07b4c3d36c9836885427a5019b11"
+            "subworkflows": {
+                "nf-core": {
+                    "utils_nextflow_pipeline": {
+                        "branch": "master",
+                        "git_sha": "c2b22d85f30a706a3073387f30380704fcae013b",
+                        "installed_by": ["subworkflows"]
+                    },
+                    "utils_nfcore_pipeline": {
+                        "branch": "master",
+                        "git_sha": "51ae5406a030d4da1e49e4dab49756844fdd6c7a",
+                        "installed_by": ["subworkflows"]
+                    },
+                    "utils_nfschema_plugin": {
+                        "branch": "master",
+                        "git_sha": "2fd2cd6d0e7b273747f32e465fdc6bcc3ae0814e",
+                        "installed_by": ["subworkflows"]
+                    }
+                }
             }
         }
     }
